@@ -1,5 +1,5 @@
 * {box-sizing: border-box;}
-body {background-color: rgb(59, 58, 58);}
+body {background-color: #9DBCBC;}
 .parent {
     display: grid;
     grid-template-columns: repeat(3,20%);

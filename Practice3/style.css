@@ -1,0 +1,14 @@
+.parent{background-image: url(https://img.freepik.com/free-vector/hand-painted-watercolor-pastel-sky-background_23-2148902771.jpg?w=1060&t=st=1647516613~exp=1647517213~hmac=d6e7f5511a2961f43ef6cf06c67b2308cb141671dc111402742a6e40303bd7e5);
+    width:90vh;
+    height: 90vh;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+
+.parent div {background-color: rgb(172, 11, 172);
+    border-radius: 100%;
+}
+
+.circle:hover {background-color: transparent;}
