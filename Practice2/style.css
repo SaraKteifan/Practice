@@ -1,91 +1,57 @@
 * {box-sizing: border-box;}
-body {background-color: #9DBCBC;}
+body {background-color: #1B1E24;}
 .parent {
     display: grid;
     grid-template-columns: repeat(3,20%);
     grid-template-rows: repeat(2, 40vh);
     justify-content: center;
-    margin-top: 5%;
-
 }
 
-img {
-    width: 70%;
-    height: 30vh;
-    margin-bottom: 0;
+.parent div {color: white;}
+h3 {text-align: center;}
+
+button {margin:0 40%;
+    border-radius: 30%;
 }
 
-.div1 img, .div4 img {
-    border-radius: 100%;
+.C1 {background-image: url(https://c.pxhere.com/photos/2c/81/albert_einstein_portrait_theoretician_physician_scientist_personality_of_the_20th_century_e_mc2_equation_theory_of_relativity_general_relativity-661549.jpg!d);
+    background-size: cover;
+}
+.H1 {background-image: url(https://live.staticflickr.com/4042/4690804858_3e6a6fabf8_c.jpg);
+    background-size: cover;
+}
+.P1 {background-image: url(https://www.meteorologiaenred.com/wp-content/uploads/2021/04/fisica-cuantica-1024x945.jpg.webp);
+    background-size: cover;
+}
+.C2 {background-image: url(https://quotepark.com/media/authors/werner-heisenberg.detail.jpeg);
+    background-size: cover;
+}
+.H2 {background-image: url(https://cdn.britannica.com/62/76562-050-49849B3C/Louis-Victor-Broglie-1929.jpg);
+    background-size: cover;
+}
+.P2 {background-image: url(https://nzhistory.govt.nz/files/styles/fullsize/public/images/ernest-rutherford-image.jpg?itok=R3Ilu5Bd);
+    background-size: cover;
 }
 
-.div2 img, .div5 img {clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
-}
-
-.div3 img, .div6 img {clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
-}
-
-.description1 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 70%;
-    height: 30vh;
-    border-radius: 100%;
-    padding: 5%;
-    background-color: rgba(0, 0, 0, 0.6);
-    color: white;
+.description1, .description2, .description3 {
+    
+    width: 100%;
+    height: 40vh;
+    padding: 15%;
     position: relative;
-    top: -30vh;
+    left: 5%;
+    bottom: 40vh;
     opacity: 0;
-    margin-top: 0;
+  
 }
 
-.description1 p:first-child{font-size: larger;}
-.description1 p:nth-child(2){margin-left: 10%;}
+.C1:hover {opacity: 0.7;}
+.H1:hover {opacity: 0.7;}
+.P1:hover {opacity: 0.7;}
+.C2:hover {opacity: 0.7;}
+.H2:hover {opacity: 0.7;}
+.P2:hover {opacity: 0.7;}
+
 .description1:hover{opacity: 1;}
-
-.description2 {
-    clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 70%;
-    height: 30vh;
-    padding: 5%;
-    background-color: rgba(0, 0, 0, 0.6);
-    color: white;
-    position: relative;
-    top: -30vh;
-    opacity: 0;
-    margin-top: 0;
-}
-
-.description2 p:first-child{font-size: larger;}
-.description2 p:nth-child(2){margin-left: 10%;}
 .description2:hover{opacity: 1;}
-
-
-.description3 {
-    clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 70%;
-    height: 30vh;
-    padding: 5%;
-    background-color: rgba(0, 0, 0, 0.6);
-    color: white;
-    position: relative;
-    top: -30vh;
-    opacity: 0;
-    margin-top: 0;
-}
-
-.description3 p:first-child{font-size: larger;}
-.description3 p:nth-child(2){margin-left: 10%;}
 .description3:hover{opacity: 1;}
-
